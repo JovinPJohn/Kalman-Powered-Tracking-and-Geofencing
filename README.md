@@ -1,2 +1,2 @@
 # Kalman-Powered-Tracking-and-Geofencing
-Real-time GPS tracking and geofencing system using Kalman filter, ESP32, and Firebase. Features 62% improved accuracy and dynamic geofence breach alerts with live map visualization.
+A real-time GPS tracking and geofencing system built on ESP32 and u-blox NEO-6M GPS module. It uses a Kalman filter to reduce noise in location data, achieving sub-3-meter accuracy. Coordinates are transmitted to Firebase and visualized on a live web dashboard using Leaflet.js. The system includes dynamic geofencing using the Haversine formula and real-time breach detection.
